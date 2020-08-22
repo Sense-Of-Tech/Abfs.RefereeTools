@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Referee tools - Sense of Tech</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/7d164ec987.js" crossorigin="anonymous"></script>
+    <style>
+        .container-div {
+            min-height: 10em;
+            display: table-cell;
+            vertical-align: middle;
+            width: 100vw;
+            text-align: center;
+            height: 100vh;
+        }
+
+        .lds-grid {
+            display: inline-block;
+            position: relative;
+            width: 80px;
+            height: 80px;
+            margin-top: 40vh;
+        }
+
+            .lds-grid div {
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background: #000000;
+                animation: lds-grid 1.2s linear infinite;
+            }
+
+                .lds-grid div:nth-child(1) {
+                    top: 8px;
+                    left: 8px;
+                    animation-delay: 0s;
+                }
+
+                .lds-grid div:nth-child(2) {
+                    top: 8px;
+                    left: 32px;
+                    animation-delay: -0.4s;
+                }
+
+                .lds-grid div:nth-child(3) {
+                    top: 8px;
+                    left: 56px;
+                    animation-delay: -0.8s;
+                }
+
+                .lds-grid div:nth-child(4) {
+                    top: 32px;
+                    left: 8px;
+                    animation-delay: -0.4s;
+                }
+
+                .lds-grid div:nth-child(5) {
+                    top: 32px;
+                    left: 32px;
+                    animation-delay: -0.8s;
+                }
+
+                .lds-grid div:nth-child(6) {
+                    top: 32px;
+                    left: 56px;
+                    animation-delay: -1.2s;
+                }
+
+                .lds-grid div:nth-child(7) {
+                    top: 56px;
+                    left: 8px;
+                    animation-delay: -0.8s;
+                }
+
+                .lds-grid div:nth-child(8) {
+                    top: 56px;
+                    left: 32px;
+                    animation-delay: -1.2s;
+                }
+
+                .lds-grid div:nth-child(9) {
+                    top: 56px;
+                    left: 56px;
+                    animation-delay: -1.6s;
+                }
+
+        @keyframes lds-grid {
+            0%, 100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <app>
+        <div class="container-div"><div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+    </app>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+
+</html>

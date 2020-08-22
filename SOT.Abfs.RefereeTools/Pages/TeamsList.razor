@@ -1,0 +1,161 @@
+@page "/teams"
+@inject HttpClient Http
+@using System.Linq;
+@using SOT.Abfs.RefereeTools.Models;
+
+<h1>Teams</h1>
+
+@if (displayTeams == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <p>This list contains all teams. Last udpate of this list @teamsInformation.LastUpdate.ToShortDateString()</p>
+    <div class="row">
+        <div class="col-sm-6">
+            <EditForm Model="@teamModelContext">
+                <div class="form-group">
+                    <div class="form-inline">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">Search</div>
+                            </div>
+                            <InputText @bind-Value="teamModelContext.FilterText" class="form-control" />
+
+                            <button @onclick="OnFilter" class="btn btn-outline-primary">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </EditForm>
+        </div>
+        <div class="col-sm-6">
+            <EditForm Model="@feeModelContext">
+                <div class="form-group">
+                    <div class="form-inline">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">Bloc 1</div>
+                            </div>
+                            <InputNumber @bind-Value="feeModelContext.Bloc1" class="form-control" />
+
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">Bloc 2</div>
+                            </div>
+                            <InputNumber @bind-Value="feeModelContext.Bloc2" class="form-control" />
+                            <button @onclick="CalculateFee" class="btn btn-outline-primary">
+                                <i class="fas fa-calculator"></i>
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+    <table class="table table-striped table-hover table-responsive-sm table-sm" >
+        <thead>
+            <tr>
+                <th>Div.</th>
+                <th>Matr.</th>
+                <th>Team</th>
+                <th>Hall</th>
+                <th>Hour</th>
+                <th>Bloc</th>
+                @if (displayTeams.FirstOrDefault()?.Difference != null)
+                {
+                    <th>Diff</th>
+                    <th>Amount</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var team in displayTeams)
+            {
+                <tr>
+                    <td>@team.Division</td>
+                    <td>@team.Matricule</td>
+                    <td>@team.ClubName</td>
+                    <td>@team.HallId.ToString("0000") - @team.Hall</td>
+                    <td>@team.Hour</td>
+                    <td>@team.Bloc1-@team.Bloc2</td>
+                    @if (team.Difference != null)
+                    {
+                        <td>@team.Difference.Value</td>
+                        <td>@((team.Difference.Value * blocFee).ToString("0.00")) &euro;</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private TeamsInformation teamsInformation;
+    private FeeModelContext feeModelContext = new FeeModelContext { Bloc1 = 26, Bloc2 = 26 };
+    private const double blocFee = 3.5;
+
+    private Team[] displayTeams;
+    private TeamModelContext teamModelContext = new TeamModelContext();
+
+
+    private void CalculateFee()
+    {
+        foreach (var team in teamsInformation.Teams)
+        {
+            team.Difference = DifferenceBloc(team, feeModelContext);
+        }
+        OnFilter();
+    }
+    private int DifferenceBloc(Team team, FeeModelContext feeModel)
+    {
+        return DifferenceBloc(team.Bloc1, team.Bloc2, feeModel.Bloc1, feeModel.Bloc2);
+    }
+
+    private int DifferenceBloc(int hallBloc1, int hallBloc2, int refereeBloc1, int refereeBloc2)
+    {
+        return Math.Abs(hallBloc1 - refereeBloc1) + Math.Abs(hallBloc2 - refereeBloc2) + 1;
+    }
+
+    private void OnFilter()
+    {
+        Filter(teamModelContext.FilterText);
+    }
+
+    private void Filter(string searchValue)
+    {
+        if (string.IsNullOrEmpty(searchValue))
+        {
+            displayTeams = teamsInformation.Teams;
+        }
+        else
+        {
+            displayTeams = teamsInformation.Teams
+                .Where(c => c.SearchString.Contains(searchValue, StringComparison.InvariantCultureIgnoreCase))
+                .ToArray();
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        teamsInformation = await Http.GetFromJsonAsync<SOT.Abfs.RefereeTools.Models.TeamsInformation>("data/teams.json");
+        teamsInformation.Teams = teamsInformation.Teams.OrderBy(c => c.Division).ThenBy(c => c.ClubName).ToArray();
+        Filter(teamModelContext.FilterText);
+    }
+
+    public class TeamModelContext
+    {
+        public string FilterText { get; set; }
+    }
+
+    public class FeeModelContext
+    {
+        public int Bloc1 { get; set; }
+        public int Bloc2 { get; set; }
+    }
+
+}

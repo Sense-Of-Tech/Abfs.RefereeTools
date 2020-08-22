@@ -1,0 +1,985 @@
+﻿{
+  "lastUpdate": "2020-08-21T10:00:00.000Z",
+  "teams": [
+    {
+      "Division": "N1",
+      "Matricule": 4528001,
+      "ClubName": "ANNEESSENS BXL",
+      "Hall": "BRUXELLES",
+      "HallId": 2,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2100
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 381001,
+      "ClubName": "ASM ETTERBEEK",
+      "Hall": "ETTERBEEK",
+      "HallId": 7,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2120
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 5628001,
+      "ClubName": "FSE JETTE CREW",
+      "Hall": "JETTE",
+      "HallId": 9,
+      "Bloc1": 19,
+      "Bloc2": 27,
+      "Hour": 2030
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 5520001,
+      "ClubName": "CHAMAL JETTE",
+      "Hall": "JETTE",
+      "HallId": 9,
+      "Bloc1": 19,
+      "Bloc2": 27,
+      "Hour": 2145
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 3555001,
+      "ClubName": "CDJ ANDERLECHT",
+      "Hall": "ANDERLECHT",
+      "HallId": 20,
+      "Bloc1": 20,
+      "Bloc2": 26,
+      "Hour": 2000
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 5622001,
+      "ClubName": "BLOC FIVE BXL",
+      "Hall": "BRUXELLES",
+      "HallId": 22,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2100
+    },
+    {
+      "Division": "N1",
+      "Matricule": 2988001,
+      "ClubName": "AS CF  SCHAERB",
+      "Hall": "SCHAERBEEK",
+      "HallId": 24,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2130
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 4546001,
+      "ClubName": "ESP SCHAERBEEK ",
+      "Hall": "SCHAERBEEK",
+      "HallId": 24,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2200
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 4549001,
+      "ClubName": "FUTSAL BXL ",
+      "Hall": "BRUXELLES",
+      "HallId": 28,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2130
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 1166001,
+      "ClubName": "PIARDIE EVERE",
+      "Hall": "EVERE",
+      "HallId": 29,
+      "Bloc1": 19,
+      "Bloc2": 27,
+      "Hour": 2130
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 1727001,
+      "ClubName": "FUTSAL EVERE",
+      "Hall": "EVERE",
+      "HallId": 30,
+      "Bloc1": 19,
+      "Bloc2": 27,
+      "Hour": 2130
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 2825001,
+      "ClubName": "B.E.UTD REBECQ",
+      "Hall": "REBECQ",
+      "HallId": 116,
+      "Bloc1": 23,
+      "Bloc2": 25,
+      "Hour": 2115
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 1706001,
+      "ClubName": "MFC REBECQ",
+      "Hall": "REBECQ",
+      "HallId": 116,
+      "Bloc1": 23,
+      "Bloc2": 25,
+      "Hour": 2215
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 1290001,
+      "ClubName": "ME WAVRE-LIMAL",
+      "Hall": "WAVRE",
+      "HallId": 126,
+      "Bloc1": 22,
+      "Bloc2": 29,
+      "Hour": 2115
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 4740001,
+      "ClubName": "LA ROUE BXL",
+      "Hall": "WAVRE",
+      "HallId": 126,
+      "Bloc1": 22,
+      "Bloc2": 29,
+      "Hour": 2100
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 2202001,
+      "ClubName": "R ST MJ FOREST",
+      "Hall": "FOREST",
+      "HallId": 204,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2130
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 4842001,
+      "ClubName": "BENFICA BXL",
+      "Hall": "AUDERGHEM",
+      "HallId": 207,
+      "Bloc1": 20,
+      "Bloc2": 28,
+      "Hour": 2145
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 1313001,
+      "ClubName": "APS OASIS BXL",
+      "Hall": "ST JOSSE T NOO",
+      "HallId": 210,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2000
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 3773001,
+      "ClubName": "SICILE PT LOUP ",
+      "Hall": "ROSELIES",
+      "HallId": 1001,
+      "Bloc1": 26,
+      "Bloc2": 29,
+      "Hour": 2100
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 7289001,
+      "ClubName": "GIBO ROSELIES",
+      "Hall": "ROSELIES",
+      "HallId": 1001,
+      "Bloc1": 26,
+      "Bloc2": 29,
+      "Hour": 2200
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 5375001,
+      "ClubName": "BOUSSU FUTSAL",
+      "Hall": "BOUSSU",
+      "HallId": 1008,
+      "Bloc1": 26,
+      "Bloc2": 22,
+      "Hour": 2215
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 2277001,
+      "ClubName": "BLAMP T BRAINE",
+      "Hall": "BRAINE LE COM",
+      "HallId": 1013,
+      "Bloc1": 23,
+      "Bloc2": 25,
+      "Hour": 2105
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 5405001,
+      "ClubName": "RB ERQUELINNES",
+      "Hall": "ERQUELINNES",
+      "HallId": 1021,
+      "Bloc1": 28,
+      "Bloc2": 25,
+      "Hour": 2200
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 6061001,
+      "ClubName": "FUTSAL FLENU",
+      "Hall": "FRAMERIES",
+      "HallId": 1024,
+      "Bloc1": 26,
+      "Bloc2": 23,
+      "Hour": 2130
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 2232001,
+      "ClubName": "RS LA LOUVIERE",
+      "Hall": "HAINE ST PAUL",
+      "HallId": 1029,
+      "Bloc1": 26,
+      "Bloc2": 25,
+      "Hour": 2100
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 5891001,
+      "ClubName": "HAINE S P CITY",
+      "Hall": "HAINE ST PAUL",
+      "HallId": 1029,
+      "Bloc1": 26,
+      "Bloc2": 25,
+      "Hour": 2205
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 4192001,
+      "ClubName": "CHIEVO LA LOUV",
+      "Hall": "HAINE ST PAUL",
+      "HallId": 1029,
+      "Bloc1": 26,
+      "Bloc2": 25,
+      "Hour": 2215
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 4962001,
+      "ClubName": "HERMANO JUMET",
+      "Hall": "JUMET",
+      "HallId": 1034,
+      "Bloc1": 26,
+      "Bloc2": 28,
+      "Hour": 2015
+    },
+    {
+      "Division": "N1",
+      "Matricule": 3296001,
+      "ClubName": "HCT DOMI MANAG",
+      "Hall": "LA HESTRE",
+      "HallId": 1035,
+      "Bloc1": 25,
+      "Bloc2": 26,
+      "Hour": 2115
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 6006001,
+      "ClubName": "LAT LA HESTRE",
+      "Hall": "LA HESTRE",
+      "HallId": 1035,
+      "Bloc1": 25,
+      "Bloc2": 26,
+      "Hour": 2115
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 4250001,
+      "ClubName": "AF MONTIGNY",
+      "Hall": "MONTIGNY TILL",
+      "HallId": 1051,
+      "Bloc1": 27,
+      "Bloc2": 27,
+      "Hour": 2100
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 5208001,
+      "ClubName": "RP MORLANWELZ",
+      "Hall": "MORLANWELZ",
+      "HallId": 1052,
+      "Bloc1": 26,
+      "Bloc2": 26,
+      "Hour": 2130
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 6190001,
+      "ClubName": "AG JUN LA LOUVIERE",
+      "Hall": "STREPY BRACQ",
+      "HallId": 1069,
+      "Bloc1": 26,
+      "Bloc2": 25,
+      "Hour": 2000
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 4640001,
+      "ClubName": "FAM LA LOUVIERE",
+      "Hall": "STREPY BRACQ",
+      "HallId": 1069,
+      "Bloc1": 26,
+      "Bloc2": 25,
+      "Hour": 2100
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 7264001,
+      "ClubName": "FS COURCELLES",
+      "Hall": "TRAZEGNIES",
+      "HallId": 1070,
+      "Bloc1": 25,
+      "Bloc2": 27,
+      "Hour": 2100
+    },
+    {
+      "Division": "N1",
+      "Matricule": 5546001,
+      "ClubName": "SO JEUNES DOUR",
+      "Hall": "ELOUGES",
+      "HallId": 1072,
+      "Bloc1": 26,
+      "Bloc2": 21,
+      "Hour": 2130
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 3716001,
+      "ClubName": "HELLAS THULIN",
+      "Hall": "THULIN/HENSIES",
+      "HallId": 1073,
+      "Bloc1": 26,
+      "Bloc2": 21,
+      "Hour": 2115
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 2461001,
+      "ClubName": "MAGIC THULIN",
+      "Hall": "THULIN/HENSIES",
+      "HallId": 1073,
+      "Bloc1": 26,
+      "Bloc2": 21,
+      "Hour": 2130
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 5308001,
+      "ClubName": "FUTSAL PIETON",
+      "Hall": "PIETON",
+      "HallId": 1076,
+      "Bloc1": 26,
+      "Bloc2": 26,
+      "Hour": 2115
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 1407001,
+      "ClubName": "INT NAMECHE 83",
+      "Hall": "ANDENNE",
+      "HallId": 2001,
+      "Bloc1": 25,
+      "Bloc2": 34,
+      "Hour": 2150
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 2166001,
+      "ClubName": "BF DINANT",
+      "Hall": "DINANT",
+      "HallId": 2010,
+      "Bloc1": 28,
+      "Bloc2": 32,
+      "Hour": 2100
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 5910001,
+      "ClubName": "SHAAB RAMILLIE",
+      "Hall": "NOVILLE L BOIS",
+      "HallId": 2014,
+      "Bloc1": 24,
+      "Bloc2": 33,
+      "Hour": 2215
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 4306001,
+      "ClubName": "FLORENNES UTD",
+      "Hall": "FLORENNES",
+      "HallId": 2016,
+      "Bloc1": 29,
+      "Bloc2": 29,
+      "Hour": 2100
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 1162001,
+      "ClubName": "MS JEMEPPE",
+      "Hall": "JEMEPPE S SAMB",
+      "HallId": 2020,
+      "Bloc1": 25,
+      "Bloc2": 30,
+      "Hour": 2120
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 1478001,
+      "ClubName": "BORUSS LOYERS",
+      "Hall": "LOYERS",
+      "HallId": 2027,
+      "Bloc1": 25,
+      "Bloc2": 33,
+      "Hour": 2115
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 2553001,
+      "ClubName": "MFC CLERMONT",
+      "Hall": "WALCOURT",
+      "HallId": 2037,
+      "Bloc1": 29,
+      "Bloc2": 28,
+      "Hour": 2150
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 3896001,
+      "ClubName": "BV MONT",
+      "Hall": "YVOIR",
+      "HallId": 2038,
+      "Bloc1": 28,
+      "Bloc2": 32,
+      "Hour": 2015
+    },
+    {
+      "Division": "N3B",
+      "Matricule": 5221001,
+      "ClubName": "PURPL AUVELAIS",
+      "Hall": "AUVELAIS",
+      "HallId": 2040,
+      "Bloc1": 26,
+      "Bloc2": 30,
+      "Hour": 2005
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 5560001,
+      "ClubName": "GEDINNE UNITED",
+      "Hall": "GEDINNE",
+      "HallId": 2042,
+      "Bloc1": 33,
+      "Bloc2": 32,
+      "Hour": 2135
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 3608001,
+      "ClubName": "MFSTJEAN-SART",
+      "Hall": "AUBEL",
+      "HallId": 3004,
+      "Bloc1": 22,
+      "Bloc2": 41,
+      "Hour": 2130
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 5749001,
+      "ClubName": "MFC SOUGNE",
+      "Hall": "AYWAILLE",
+      "HallId": 3009,
+      "Bloc1": 25,
+      "Bloc2": 39,
+      "Hour": 2100
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 3509001,
+      "ClubName": "MJ BIBI LIEGE ",
+      "Hall": "BEYNE HEUSAY",
+      "HallId": 3010,
+      "Bloc1": 23,
+      "Bloc2": 39,
+      "Hour": 2100
+    },
+    {
+      "Division": "N1",
+      "Matricule": 5643001,
+      "ClubName": "ATLAS LIEGE",
+      "Hall": "BEYNE HEUSAY",
+      "HallId": 3010,
+      "Bloc1": 23,
+      "Bloc2": 39,
+      "Hour": 2115
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 2907001,
+      "ClubName": "WAL Y FALLAIS",
+      "Hall": "FALLAIS",
+      "HallId": 3027,
+      "Bloc1": 23,
+      "Bloc2": 35,
+      "Hour": 2100
+    },
+    {
+      "Division": "N1",
+      "Matricule": 432001,
+      "ClubName": "AC FLEMALLE",
+      "Hall": "FLEMALLE",
+      "HallId": 3030,
+      "Bloc1": 23,
+      "Bloc2": 37,
+      "Hour": 2115
+    },
+    {
+      "Division": "N1",
+      "Matricule": 5212001,
+      "ClubName": "LACHS AHL LG",
+      "Hall": "FLEMALLE",
+      "HallId": 3030,
+      "Bloc1": 23,
+      "Bloc2": 37,
+      "Hour": 2115
+    },
+    {
+      "Division": "N1",
+      "Matricule": 1146001,
+      "ClubName": "GOLDEN SERAING",
+      "Hall": "GRACE HOLLOG",
+      "HallId": 3034,
+      "Bloc1": 23,
+      "Bloc2": 38,
+      "Hour": 2100
+    },
+    {
+      "Division": "N1",
+      "Matricule": 3485001,
+      "ClubName": "FUTS IP HANNUT",
+      "Hall": "HANNUT",
+      "HallId": 3037,
+      "Bloc1": 22,
+      "Bloc2": 34,
+      "Hour": 2130
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 2932001,
+      "ClubName": "T GSI VERVIERS",
+      "Hall": "HENRI CHAPELLE",
+      "HallId": 3044,
+      "Bloc1": 22,
+      "Bloc2": 42,
+      "Hour": 2115
+    },
+    {
+      "Division": "N1",
+      "Matricule": 5854001,
+      "ClubName": "HERSTAL 1453",
+      "Hall": "HERSTAL",
+      "HallId": 3051,
+      "Bloc1": 22,
+      "Bloc2": 39,
+      "Hour": 2130
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 4758001,
+      "ClubName": "MF OREYE",
+      "Hall": "OREYE",
+      "HallId": 3057,
+      "Bloc1": 22,
+      "Bloc2": 36,
+      "Hour": 2030
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 2918001,
+      "ClubName": "COSM STAVELOT",
+      "Hall": "STAVELOT",
+      "HallId": 3069,
+      "Bloc1": 26,
+      "Bloc2": 42,
+      "Hour": 2130
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 4148001,
+      "ClubName": "CELTIC VISE ",
+      "Hall": "VISE",
+      "HallId": 3080,
+      "Bloc1": 21,
+      "Bloc2": 40,
+      "Hour": 2100
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 3609001,
+      "ClubName": "MARSEIL WANZE",
+      "Hall": "WANZE",
+      "HallId": 3081,
+      "Bloc1": 24,
+      "Bloc2": 35,
+      "Hour": 2000
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 3784001,
+      "ClubName": "ESC WAREMME FS",
+      "Hall": "WAREMME",
+      "HallId": 3082,
+      "Bloc1": 22,
+      "Bloc2": 35,
+      "Hour": 2035
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 5746001,
+      "ClubName": "GLASG HACCOURT",
+      "Hall": "HERMALLE S ARG",
+      "HallId": 3086,
+      "Bloc1": 22,
+      "Bloc2": 40,
+      "Hour": 2115
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 1508001,
+      "ClubName": "MF ETALLE",
+      "Hall": "ETALLE",
+      "HallId": 4011,
+      "Bloc1": 37,
+      "Bloc2": 39,
+      "Hour": 2040
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 4210001,
+      "ClubName": "BJ LIBRAMONT",
+      "Hall": "LIBRAMONT",
+      "HallId": 4023,
+      "Bloc1": 34,
+      "Bloc2": 37,
+      "Hour": 2100
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 4807001,
+      "ClubName": "LUNCH BASTOGNE",
+      "Hall": "BASTOGNE",
+      "HallId": 4028,
+      "Bloc1": 32,
+      "Bloc2": 40,
+      "Hour": 2210
+    },
+    {
+      "Division": "N3D",
+      "Matricule": 2056001,
+      "ClubName": "STE-MARIE 87",
+      "Hall": "FRATIN",
+      "HallId": 4033,
+      "Bloc1": 37,
+      "Bloc2": 39,
+      "Hour": 2100
+    },
+    {
+      "Division": "N1",
+      "Matricule": 5675001,
+      "ClubName": "ZVC ASSEBROEKE",
+      "Hall": "ASSEBROEK",
+      "HallId": 6442,
+      "Bloc1": 14,
+      "Bloc2": 16,
+      "Hour": 2115
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 3704001,
+      "ClubName": "HAVERA DENDERM",
+      "Hall": "DENDERMONDE",
+      "HallId": 7606,
+      "Bloc1": 17,
+      "Bloc2": 25,
+      "Hour": 2130
+    },
+    {
+      "Division": "N1",
+      "Matricule": 2782001,
+      "ClubName": "MORATEX LEBBEK",
+      "Hall": "LEBBEKE",
+      "HallId": 7610,
+      "Bloc1": 18,
+      "Bloc2": 25,
+      "Hour": 2130
+    },
+    {
+      "Division": "N1",
+      "Matricule": 2862001,
+      "ClubName": "GSBEO HOB STER",
+      "Hall": "HOBOKEN",
+      "HallId": 8222,
+      "Bloc1": 15,
+      "Bloc2": 27,
+      "Hour": 2115
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 5832001,
+      "ClubName": "HOVE ZVK",
+      "Hall": "HOVE",
+      "HallId": 8223,
+      "Bloc1": 15,
+      "Bloc2": 28,
+      "Hour": 2100
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 7863001,
+      "ClubName": "FUTSAL PUURS",
+      "Hall": "BREENDONK",
+      "HallId": 8266,
+      "Bloc1": 17,
+      "Bloc2": 27,
+      "Hour": 2105
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 7846001,
+      "ClubName": "ZURENBORG ANTW",
+      "Hall": "ANTWERPEN",
+      "HallId": 8308,
+      "Bloc1": 14,
+      "Bloc2": 27,
+      "Hour": 2100
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 7875001,
+      "ClubName": "AC ANTWERPEN",
+      "Hall": "ANTWERPEN",
+      "HallId": 8308,
+      "Bloc1": 14,
+      "Bloc2": 27,
+      "Hour": 2100
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 8817001,
+      "ClubName": "RSA WILLEBROEK",
+      "Hall": "WILLEBROEK",
+      "HallId": 8309,
+      "Bloc1": 17,
+      "Bloc2": 27,
+      "Hour": 2215
+    },
+    {
+      "Division": "N1",
+      "Matricule": 885001,
+      "ClubName": "ALL BL BERLAAR",
+      "Hall": "BERLAAR",
+      "HallId": 8310,
+      "Bloc1": 16,
+      "Bloc2": 30,
+      "Hour": 2130
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 7849001,
+      "ClubName": "SAL MECHELEN",
+      "Hall": "MECHELEN",
+      "HallId": 8380,
+      "Bloc1": 17,
+      "Bloc2": 28,
+      "Hour": 2100
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 7871001,
+      "ClubName": "HASSANIA MECHE",
+      "Hall": "MECHELEN",
+      "HallId": 8380,
+      "Bloc1": 17,
+      "Bloc2": 28,
+      "Hour": 2200
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 6982001,
+      "ClubName": "R'79 ETTERBEEK",
+      "Hall": "IXELLES/ELSENE",
+      "HallId": 9004,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2000
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 7115001,
+      "ClubName": "ARES UTD BXL",
+      "Hall": "MOLENBEEK ST J",
+      "HallId": 9012,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2100
+    },
+    {
+      "Division": "N3C",
+      "Matricule": 3969001,
+      "ClubName": "AJM MOLENBEEK",
+      "Hall": "MOLENBEEK ST J",
+      "HallId": 9012,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2215
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 5890001,
+      "ClubName": "ESP MOLENBEEK",
+      "Hall": "MOLENBEEK ST J",
+      "HallId": 9012,
+      "Bloc1": 20,
+      "Bloc2": 27,
+      "Hour": 2215
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 4653001,
+      "ClubName": "FUTSAL BERCHEM",
+      "Hall": "BERCHEM ST AGAT",
+      "HallId": 9017,
+      "Bloc1": 20,
+      "Bloc2": 26,
+      "Hour": 2200
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 3754001,
+      "ClubName": "DRACON NINOVE",
+      "Hall": "ROOSDAAL",
+      "HallId": 9048,
+      "Bloc1": 20,
+      "Bloc2": 24,
+      "Hour": 2200
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 4948001,
+      "ClubName": "ZVK SDI ASSE",
+      "Hall": "ASSE",
+      "HallId": 9063,
+      "Bloc1": 19,
+      "Bloc2": 26,
+      "Hour": 2100
+    },
+    {
+      "Division": "N2A",
+      "Matricule": 1267001,
+      "ClubName": "COLOMBUSWEMMEL",
+      "Hall": "WEMMEL",
+      "HallId": 9070,
+      "Bloc1": 19,
+      "Bloc2": 26,
+      "Hour": 2210
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 5091001,
+      "ClubName": "BABYTYRE VILV",
+      "Hall": "VILVOORDE",
+      "HallId": 9085,
+      "Bloc1": 19,
+      "Bloc2": 28,
+      "Hour": 2200
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 5487001,
+      "ClubName": "MI83 OCTA+ BXL",
+      "Hall": "VILVOORDE",
+      "HallId": 9085,
+      "Bloc1": 19,
+      "Bloc2": 28,
+      "Hour": 2210
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 3999001,
+      "ClubName": "KL STEENOKKERZ",
+      "Hall": "STEENOKKERZEEL",
+      "HallId": 9124,
+      "Bloc1": 19,
+      "Bloc2": 28,
+      "Hour": 2000
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 7935001,
+      "ClubName": "VBOYS VELTEM",
+      "Hall": "VELTEM",
+      "HallId": 9125,
+      "Bloc1": 19,
+      "Bloc2": 29,
+      "Hour": 2105
+    },
+    {
+      "Division": "N2B",
+      "Matricule": 5953001,
+      "ClubName": "ISTB HERENT",
+      "Hall": "VELTEM",
+      "HallId": 9125,
+      "Bloc1": 19,
+      "Bloc2": 29,
+      "Hour": 2210
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 7965001,
+      "ClubName": "MACRON TIENEN",
+      "Hall": "GLABBEEK",
+      "HallId": 9142,
+      "Bloc1": 19,
+      "Bloc2": 33,
+      "Hour": 2000
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 7931001,
+      "ClubName": "BL DEV HULDENB",
+      "Hall": "HULDENBERG",
+      "HallId": 9174,
+      "Bloc1": 21,
+      "Bloc2": 29,
+      "Hour": 2200
+    },
+    {
+      "Division": "N3A",
+      "Matricule": 1585001,
+      "ClubName": "EURO KRAAINEM",
+      "Hall": "WEZEMBEEK OPP",
+      "HallId": 9178,
+      "Bloc1": 20,
+      "Bloc2": 28,
+      "Hour": 2200
+    }
+  ]
+}
