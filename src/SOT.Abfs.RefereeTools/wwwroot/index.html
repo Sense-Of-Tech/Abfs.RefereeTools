@@ -10,6 +10,21 @@
     <link href="css/app.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/7d164ec987.js" crossorigin="anonymous"></script>
     <style>
+
+        footer {
+            color: white;
+            bottom: 0;
+            width: 100vw;
+            left: 0;
+            position: absolute;
+            background: #3a0647;
+            height: 70px;
+        }
+
+        .main {
+            margin-bottom: 70px;
+        }
+
         .container-div {
             min-height: 10em;
             display: table-cell;
@@ -32,7 +47,7 @@
                 width: 16px;
                 height: 16px;
                 border-radius: 50%;
-                background: #000000;
+                background: #3a0647;
                 animation: lds-grid 1.2s linear infinite;
             }
 
@@ -113,6 +128,12 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        window.blazorCulture = {
+            get: () => window.localStorage['BlazorCulture'],
+            set: (value) => window.localStorage['BlazorCulture'] = value
+        };
+    </script>
 </body>
 
 </html>

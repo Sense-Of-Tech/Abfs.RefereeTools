@@ -118,35 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Title" xml:space="preserve">
-    <value>Welcome in the ABFS Referee tools</value>
-    <comment>Welcome in the ABFS Referee tools</comment>
+    <value>Bienvenu sur l'outils pour les arbitres de l'ABFS</value>
   </data>
   <data name="IntroText" xml:space="preserve">
-    <value>This is a Swiss Army Knife project to make it easier for national referees to manage their administration before and after their matches.</value>
+    <value>Il s'agit d'un projet "Swiss Army Knife" visant à faciliter la gestion des arbitres nationaux avant et après leurs matches.</value>
   </data>
   <data name="LoveWith" xml:space="preserve">
-    <value>Project made with love by </value>
+    <value>Projet réalisé avec amour par </value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>Home</value>
+    <value>Accueil</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>Language</value>
+    <value>Langue</value>
   </data>
   <data name="Teams" xml:space="preserve">
-    <value>Teams</value>
+    <value>Equipes</value>
   </data>
   <data name="Loading" xml:space="preserve">
-    <value>Loading...</value>
-  </data>
-  <data name="TeamsIntroText" xml:space="preserve">
-    <value>This list contains all teams.</value>
-  </data>
-  <data name="LastUpdateText" xml:space="preserve">
-    <value>Last udpate of this list </value>
+    <value>Chargement en cours...</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Search</value>
+    <value>Rechercher</value>
   </data>
   <data name="Bloc" xml:space="preserve">
     <value>Bloc</value>
@@ -155,18 +148,24 @@
     <value>Div.</value>
   </data>
   <data name="TeamId" xml:space="preserve">
-    <value>Id</value>
+    <value>Matr.</value>
   </data>
   <data name="Hall" xml:space="preserve">
-    <value>Hall</value>
+    <value>Salle</value>
   </data>
   <data name="Hour" xml:space="preserve">
-    <value>Hour</value>
+    <value>Heure</value>
   </data>
   <data name="Diff" xml:space="preserve">
     <value>Diff</value>
   </data>
   <data name="Amount" xml:space="preserve">
-    <value>Amount</value>
+    <value>Montanrt</value>
+  </data>
+  <data name="TeamsIntroText" xml:space="preserve">
+    <value>Cette liste contient toutes les équipes ABFS.</value>
+  </data>
+  <data name="LastUpdateText" xml:space="preserve">
+    <value>Dernière mise à jour de cette liste</value>
   </data>
 </root>
