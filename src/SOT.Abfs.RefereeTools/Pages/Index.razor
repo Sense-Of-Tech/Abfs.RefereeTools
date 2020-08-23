@@ -1,8 +1,15 @@
 ﻿@page "/"
 
-<h1>@localizer["Title"]</h1>
+<div class="jumbotron">
+    <h1 class="display-4">@localizer["Title"]</h1>
+    <p class="lead">
+        @localizer["IntroText"]
+    </p>
+    <hr />
+    <p>@localizer["LoveWith"] <a href="https://www.so.tech">Sense of Tech</a></p>
+</div>
 
 
-<p>@localizer["IntroText"]</p>
-
-<p>@localizer["LoveWith"] <a href="https://www.so.tech">Sense of Tech</a></p>
+@code {
+    [Inject] IStringLocalizer<App> localizer2 { get; set; }
+}

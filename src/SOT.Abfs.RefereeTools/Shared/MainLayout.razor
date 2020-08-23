@@ -1,4 +1,7 @@
 ﻿@inherits LayoutComponentBase
+@using System.Globalization;
+@inject IJSRuntime JSRuntime
+@inject NavigationManager Nav
 
 <div class="sidebar">
     <NavMenu />
@@ -6,12 +9,48 @@
 
 <div class="main">
     <div class="top-row px-4">
-        <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
+        <div class="container" style="text-align:right;">
+            <div class="row">
+                <div class="col align-self-end col-5 form-group row">
+                    <label class="col-sm-2 col-form-label col-form-label-sm">@localizer["Language"]</label>
+                    <div class="col-sm-10">
+                        <select @bind="Culture" class="form-control form-control-sm">
+                            @foreach (var culture in supportedCultures)
+                            {
+                                <option value="@culture">@culture.DisplayName</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="content px-4">
         @Body
-    </div> 
+    </div>
 </div>
 
-<Footer />
+@code {
+    private CultureInfo[] supportedCultures = new[]
+    {
+        new CultureInfo("fr"),
+        new CultureInfo("en"),
+        new CultureInfo("nl"),
+    };
+
+    private CultureInfo Culture
+    {
+        get => CultureInfo.CurrentCulture;
+        set
+        {
+            if (CultureInfo.CurrentCulture != value)
+            {
+                var js = (IJSInProcessRuntime)JSRuntime;
+                js.InvokeVoid("blazorCulture.set", value.Name);
+
+                Nav.NavigateTo(Nav.Uri, forceLoad: true);
+            }
+        }
+    }
+}

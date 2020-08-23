@@ -1,0 +1,1186 @@
+﻿{
+  "lastUpdate": "2020-08-22T10:00:00.000Z",
+  "halls": [
+    [
+      {
+        "Id": 2,
+        "HallName": "Palais du midi",
+        "Street": "Rue Van Der Weyden 3",
+        "PostCode": 1000,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 7,
+        "HallName": "Centre Omnisports Etterbeek",
+        "Street": "Rue des Champs 71",
+        "PostCode": 1040,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 9,
+        "HallName": "SO JETTE",
+        "Street": "Avenue Comte de Jette",
+        "PostCode": 1090,
+        "City": "BRUXELLES",
+        "Bloc1": 19,
+        "Bloc2": 27
+      },
+      {
+        "Id": 15,
+        "HallName": "Salle Vrydaghs",
+        "Street": "Chaussée de Wavre 1690",
+        "PostCode": 1160,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 28
+      },
+      {
+        "Id": 17,
+        "HallName": "Complexe Sportif de Berchem S Agathe",
+        "Street": "Rue des Chalets 1/11",
+        "PostCode": 1081,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 19,
+        "HallName": "SALLE EMMANUEL HIEL",
+        "Street": "Allée des Frésias 26",
+        "PostCode": 1030,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 20,
+        "HallName": "COMPLEXE SPORTIF du CERIA",
+        "Street": "Avenue E. Gryson 1 ",
+        "PostCode": 1070,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 26
+      },
+      {
+        "Id": 21,
+        "HallName": "Complexe Sportif",
+        "Street": "Chemin de la Bruyère du Coq 51",
+        "PostCode": 1495,
+        "City": "VILLERS LA VILLE",
+        "Bloc1": 24,
+        "Bloc2": 29
+      },
+      {
+        "Id": 22,
+        "HallName": "Salle Vanderputten",
+        "Street": "Boulevard de l'Abattoir 51",
+        "PostCode": 1000,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 24,
+        "HallName": "Hall Omnisports Kinetex",
+        "Street": "Boulevard Lambermont 238",
+        "PostCode": 1030,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 26,
+        "HallName": "Salle Simonet",
+        "Street": "Avenue Théo Verbeeck 2",
+        "PostCode": 1080,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 26
+      },
+      {
+        "Id": 28,
+        "HallName": "Salle Omnisports de Laeken",
+        "Street": "Rue Champ de l'Eglise 73/89",
+        "PostCode": 1000,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 29,
+        "HallName": "Salle Omnisports L'Aubier",
+        "Street": "Rue des Deux Maisons 34",
+        "PostCode": 1140,
+        "City": "BRUXELLES",
+        "Bloc1": 19,
+        "Bloc2": 27
+      },
+      {
+        "Id": 30,
+        "HallName": "Salle F. Guillaume",
+        "Street": "Avenue des Anciens Combattants 300",
+        "PostCode": 1140,
+        "City": "BRUXELLES",
+        "Bloc1": 19,
+        "Bloc2": 27
+      },
+      {
+        "Id": 106,
+        "HallName": "Salle Omnisports de Grez Doiceau",
+        "Street": "Chaussée de Wavre 99",
+        "PostCode": 1390,
+        "City": "GREZ-DOICEAU",
+        "Bloc1": 21,
+        "Bloc2": 30
+      },
+      {
+        "Id": 114,
+        "HallName": "Complexe Sportif de Perwez",
+        "Street": "Rue des Marronniers 17",
+        "PostCode": 1360,
+        "City": "PERWEZ",
+        "Bloc1": 23,
+        "Bloc2": 31
+      },
+      {
+        "Id": 115,
+        "HallName": "Salle Omnisports de Ramillies",
+        "Street": "Rue des Déportés 48 a ",
+        "PostCode": 1367,
+        "City": "RAMILLIES",
+        "Bloc1": 23,
+        "Bloc2": 32
+      },
+      {
+        "Id": 116,
+        "HallName": "Hall de Sports Communal",
+        "Street": "Rue Trieu du Bois 1",
+        "PostCode": 1430,
+        "City": "REBECQ",
+        "Bloc1": 22,
+        "Bloc2": 25
+      },
+      {
+        "Id": 126,
+        "HallName": "Hall des Sports de Wavre",
+        "Street": "Avenue du Centre Sportif, 22",
+        "PostCode": 1300,
+        "City": "WAVRE",
+        "Bloc1": 22,
+        "Bloc2": 29
+      },
+      {
+        "Id": 204,
+        "HallName": "Hall \"Van Volxem\"",
+        "Street": "Avenue Van Volxem 391",
+        "PostCode": 1190,
+        "City": "FOREST",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 207,
+        "HallName": "Centre Sportif de la Forêt de Soignes H1",
+        "Street": "Chausséee de Wavre 2057",
+        "PostCode": 1160,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 28
+      },
+      {
+        "Id": 210,
+        "HallName": "Salle Guy Cudell",
+        "Street": "Rue des Deux Eglises 107",
+        "PostCode": 1210,
+        "City": "ST-JOSSE-TEN-NOODE",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 220,
+        "HallName": "Complexe Sportif de la STIB",
+        "Street": "Rue du Biplan 22",
+        "PostCode": 1130,
+        "City": "BRUXELLES",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 1001,
+        "HallName": "Hall sportif et polyvalent",
+        "Street": "Rue President John Kennedy 150",
+        "PostCode": 6250,
+        "City": "ROSELIES",
+        "Bloc1": 26,
+        "Bloc2": 29
+      },
+      {
+        "Id": 1002,
+        "HallName": "Hall des Sports",
+        "Street": "Rue de Maubeuge 24",
+        "PostCode": 6150,
+        "City": "ANDERLUES",
+        "Bloc1": 26,
+        "Bloc2": 26
+      },
+      {
+        "Id": 1004,
+        "HallName": "Centre Omnisport du Préau",
+        "Street": "Rue du Préau",
+        "PostCode": 7320,
+        "City": "BERNISSART",
+        "Bloc1": 25,
+        "Bloc2": 20
+      },
+      {
+        "Id": 1008,
+        "HallName": "Centre Omnisport de Boussu",
+        "Street": "Rue du Centenaire, 120",
+        "PostCode": 7300,
+        "City": "BOUSSU",
+        "Bloc1": 26,
+        "Bloc2": 22
+      },
+      {
+        "Id": 1013,
+        "HallName": "HALL DES SPORTS LE CHAMP DE LA LUNE",
+        "Street": "Rue d'Horrues ",
+        "PostCode": 7090,
+        "City": "BRAINE LE COMTE",
+        "Bloc1": 23,
+        "Bloc2": 25
+      },
+      {
+        "Id": 1014,
+        "HallName": "Centre Sportif Chimay",
+        "Street": "Avenue du Chalon 1 B",
+        "PostCode": 6460,
+        "City": "Chimay",
+        "Bloc1": 31,
+        "Bloc2": 26
+      },
+      {
+        "Id": 1017,
+        "HallName": "Complexe Sportif Fourcault",
+        "Street": "Rue des Français 147",
+        "PostCode": 6020,
+        "City": "DAMPREMY",
+        "Bloc1": 26,
+        "Bloc2": 28
+      },
+      {
+        "Id": 1018,
+        "HallName": "Salle Omnisports Ecaussines",
+        "Street": "Rue Sacueni 1",
+        "PostCode": 7190,
+        "City": "ECAUSSINES",
+        "Bloc1": 24,
+        "Bloc2": 25
+      },
+      {
+        "Id": 1021,
+        "HallName": "Salle Omnisports Erquelinnes",
+        "Street": "Rue Libotte Mozin 1",
+        "PostCode": 6560,
+        "City": "ERQUELINNES",
+        "Bloc1": 28,
+        "Bloc2": 25
+      },
+      {
+        "Id": 1024,
+        "HallName": "Salle Max Auduin",
+        "Street": "Rue du Chapitre 3",
+        "PostCode": 7080,
+        "City": "FRAMERIES",
+        "Bloc1": 26,
+        "Bloc2": 23
+      },
+      {
+        "Id": 1029,
+        "HallName": "Complexe Sportif Haine St Paul",
+        "Street": "R. des Longues Haies",
+        "PostCode": 7100,
+        "City": "HAINE SAINT PAUL",
+        "Bloc1": 26,
+        "Bloc2": 25
+      },
+      {
+        "Id": 1032,
+        "HallName": "Salles Omnisports Hornu",
+        "Street": "Rue Barbet",
+        "PostCode": 7301,
+        "City": "HORNU",
+        "Bloc1": 26,
+        "Bloc2": 22
+      },
+      {
+        "Id": 1034,
+        "HallName": "Centre Sportif Arc en Ciel",
+        "Street": "Place du Prieuré 22",
+        "PostCode": 6040,
+        "City": "JUMET (Heigne)",
+        "Bloc1": 26,
+        "Bloc2": 28
+      },
+      {
+        "Id": 1035,
+        "HallName": "Complexe Sportif de la Drève",
+        "Street": "Rue Vanhulst 15",
+        "PostCode": 7170,
+        "City": "LA HESTRE",
+        "Bloc1": 25,
+        "Bloc2": 26
+      },
+      {
+        "Id": 1051,
+        "HallName": "Hall Omnisports Montigny le Tilleul",
+        "Street": "Rue Bois Frison",
+        "PostCode": 6110,
+        "City": "MONTIGNY LE TILLEUL",
+        "Bloc1": 27,
+        "Bloc2": 27
+      },
+      {
+        "Id": 1052,
+        "HallName": "Morlanwelz Complex Sportif",
+        "Street": "Rue du Pont de Nil",
+        "PostCode": 7140,
+        "City": "MORLANWELZ",
+        "Bloc1": 26,
+        "Bloc2": 26
+      },
+      {
+        "Id": 1065,
+        "HallName": "Salle Omnisports Soignies",
+        "Street": "Rue de Cognebeau",
+        "PostCode": 7060,
+        "City": "SOIGNIES",
+        "Bloc1": 23,
+        "Bloc2": 24
+      },
+      {
+        "Id": 1069,
+        "HallName": "Centre Culturel & Sportif Strépy Bracq.",
+        "Street": "Rue des Candiens 83",
+        "PostCode": 7110,
+        "City": "STREPY-BRACQUENIES",
+        "Bloc1": 26,
+        "Bloc2": 24
+      },
+      {
+        "Id": 1070,
+        "HallName": "Hall Omnisports de Trazegnies",
+        "Street": "Avenue de l'Europe 3",
+        "PostCode": 6183,
+        "City": "TRAZEGNIES",
+        "Bloc1": 25,
+        "Bloc2": 27
+      },
+      {
+        "Id": 1072,
+        "HallName": "HS ELOUGES",
+        "Street": "Rue de la Tourelle",
+        "PostCode": 7370,
+        "City": "ELOUGES",
+        "Bloc1": 27,
+        "Bloc2": 22
+      },
+      {
+        "Id": 1073,
+        "HallName": "CS THULIN",
+        "Street": "Rue Auguste Lecomte",
+        "PostCode": 7350,
+        "City": "THULIN",
+        "Bloc1": 26,
+        "Bloc2": 21
+      },
+      {
+        "Id": 1074,
+        "HallName": "Salle Omnisport des Ascenseurs",
+        "Street": "Rue Manoir sint-Jean 2",
+        "PostCode": 7070,
+        "City": "THIEU",
+        "Bloc1": 25,
+        "Bloc2": 25
+      },
+      {
+        "Id": 1076,
+        "HallName": "HALL SPORTIF PIETON",
+        "Street": "Rue de l'avenir 2",
+        "PostCode": 7160,
+        "City": "PIETON",
+        "Bloc1": 25,
+        "Bloc2": 26
+      },
+      {
+        "Id": 1077,
+        "HallName": "HALL SPORTIF FORCHIES-LA-MARCHE",
+        "Street": "Cité des 3 Bonniers ",
+        "PostCode": 6141,
+        "City": "FORCHIES-LA-MARCHE",
+        "Bloc1": 26,
+        "Bloc2": 27
+      },
+      {
+        "Id": 1078,
+        "HallName": "Brunehall",
+        "Street": "Rue Wibault Bouchart 1",
+        "PostCode": 7620,
+        "City": "BLEHARIES",
+        "Bloc1": 25,
+        "Bloc2": 18
+      },
+      {
+        "Id": 2001,
+        "HallName": "Complexe Sportif Communal d'Andenne",
+        "Street": "Square Docteur Mélin 14",
+        "PostCode": 5300,
+        "City": "ANDENNE",
+        "Bloc1": 25,
+        "Bloc2": 34
+      },
+      {
+        "Id": 2002,
+        "HallName": "Centre Culturel et Sportif",
+        "Street": "Rue du Petit Bois 1",
+        "PostCode": 5537,
+        "City": "ANHEE",
+        "Bloc1": 27,
+        "Bloc2": 31
+      },
+      {
+        "Id": 2010,
+        "HallName": "Collège Notre-Dame de Belle-Vue",
+        "Street": "Rue de Bonsecours 2",
+        "PostCode": 5500,
+        "City": "DINANT",
+        "Bloc1": 28,
+        "Bloc2": 32
+      },
+      {
+        "Id": 2013,
+        "HallName": "Complexe Sportif Eghezée",
+        "Street": "Rue de la Gare 5",
+        "PostCode": 5310,
+        "City": "EGHEZEE",
+        "Bloc1": 23,
+        "Bloc2": 32
+      },
+      {
+        "Id": 2014,
+        "HallName": "Centre Sportif et Associatif de Fernelmont",
+        "Street": "Avenue de la Rénovation 8",
+        "PostCode": 5380,
+        "City": "NOVILLES-LES-BOIS",
+        "Bloc1": 24,
+        "Bloc2": 33
+      },
+      {
+        "Id": 2016,
+        "HallName": "Centre Culturel et Sportif P. Rolin",
+        "Street": "Rue Parc des Ducs de Beaufort 1",
+        "PostCode": 5620,
+        "City": "FLORENNES",
+        "Bloc1": 29,
+        "Bloc2": 30
+      },
+      {
+        "Id": 2020,
+        "HallName": "Hall Omnisports",
+        "Street": "Rue Saint Martin 21",
+        "PostCode": 5190,
+        "City": "JEMEPPE/S/SAMBRE",
+        "Bloc1": 25,
+        "Bloc2": 30
+      },
+      {
+        "Id": 2023,
+        "HallName": "Hall Omnisports de Bouge",
+        "Street": "Rue des Etourneaux 28",
+        "PostCode": 5004,
+        "City": "BOUGE",
+        "Bloc1": 25,
+        "Bloc2": 32
+      },
+      {
+        "Id": 2027,
+        "HallName": "Centre Sportif de Loyers",
+        "Street": "Place de Loyettes 1",
+        "PostCode": 5101,
+        "City": "LOYERS",
+        "Bloc1": 26,
+        "Bloc2": 32
+      },
+      {
+        "Id": 2028,
+        "HallName": "Centre Sportif de Jambes",
+        "Street": "Rue Albert Michiels 8",
+        "PostCode": 5100,
+        "City": "JAMBES",
+        "Bloc1": 26,
+        "Bloc2": 32
+      },
+      {
+        "Id": 2037,
+        "HallName": "Compl Sportif de Walcourt - Spayemont",
+        "Street": "Allée du 125ème Régiment",
+        "PostCode": 5650,
+        "City": "WALCOURT",
+        "Bloc1": 29,
+        "Bloc2": 27
+      },
+      {
+        "Id": 2038,
+        "HallName": "Salle Omnisports 'Le Maka'",
+        "Street": "Rue du Maka",
+        "PostCode": 5530,
+        "City": "YVOIR",
+        "Bloc1": 28,
+        "Bloc2": 33
+      },
+      {
+        "Id": 2040,
+        "HallName": "HALL OMNISPORT D'AUVELAIS",
+        "Street": "Rue Pont Ste-Maxence 1",
+        "PostCode": 5060,
+        "City": "AUVELAIS",
+        "Bloc1": 26,
+        "Bloc2": 30
+      },
+      {
+        "Id": 2042,
+        "HallName": "Centre Sportif de la Houille",
+        "Street": "Rue de la Morie",
+        "PostCode": 5575,
+        "City": "GEDINNE",
+        "Bloc1": 32,
+        "Bloc2": 32
+      },
+      {
+        "Id": 2539,
+        "HallName": "Hall Omnisports d'Aywaille",
+        "Street": "Esplanade du Fair-Play 1",
+        "PostCode": 4920,
+        "City": "AYWAILLE",
+        "Bloc1": 25,
+        "Bloc2": 39
+      },
+      {
+        "Id": 3004,
+        "HallName": "AUBEL (Salle Bleue)",
+        "Street": "Ruelle de la Kan 1",
+        "PostCode": 4880,
+        "City": "AUBEL",
+        "Bloc1": 22,
+        "Bloc2": 41
+      },
+      {
+        "Id": 3009,
+        "HallName": "Centre Sportif d'Aywaille",
+        "Street": "Esplanade du Fair-Play, 1",
+        "PostCode": 4920,
+        "City": "AYWAILLE",
+        "Bloc1": 25,
+        "Bloc2": 39
+      },
+      {
+        "Id": 3010,
+        "HallName": "BEYNE",
+        "Street": "Rue du Heusay 19",
+        "PostCode": 4610,
+        "City": "BEYNE",
+        "Bloc1": 23,
+        "Bloc2": 39
+      },
+      {
+        "Id": 3012,
+        "HallName": "BRESSOUX",
+        "Street": "Rue Ernest Malvoz",
+        "PostCode": 4020,
+        "City": "BRESSOUX",
+        "Bloc1": 23,
+        "Bloc2": 39
+      },
+      {
+        "Id": 3027,
+        "HallName": "Hall des sports Fallais",
+        "Street": "Rue de Dreve 13B",
+        "PostCode": 4260,
+        "City": "FALLAIS",
+        "Bloc1": 23,
+        "Bloc2": 34
+      },
+      {
+        "Id": 3030,
+        "HallName": "FLEMALLE - LOUIS MELIN",
+        "Street": "Rue Passage d'Eau",
+        "PostCode": 4400,
+        "City": "FLEMALLE",
+        "Bloc1": 23,
+        "Bloc2": 37
+      },
+      {
+        "Id": 3031,
+        "HallName": "FLERON Espace Sport",
+        "Street": "Avenue de l'Espace Sport 4",
+        "PostCode": 4620,
+        "City": "FLERON",
+        "Bloc1": 23,
+        "Bloc2": 40
+      },
+      {
+        "Id": 3034,
+        "HallName": "GRACE-HOLLOGNE",
+        "Street": "Rue des XVIII Bonniers",
+        "PostCode": 4460,
+        "City": "GRACE-HOLLOGNE",
+        "Bloc1": 23,
+        "Bloc2": 37
+      },
+      {
+        "Id": 3037,
+        "HallName": "HANNUT",
+        "Street": "Route de Landen",
+        "PostCode": 4280,
+        "City": "HANNUT",
+        "Bloc1": 23,
+        "Bloc2": 34
+      },
+      {
+        "Id": 3042,
+        "HallName": "HUY",
+        "Street": "Avenue de la Croix Rouge 4",
+        "PostCode": 4500,
+        "City": "HUY",
+        "Bloc1": 25,
+        "Bloc2": 35
+      },
+      {
+        "Id": 3044,
+        "HallName": "HENRI-CHAPELLE",
+        "Street": "Chaussée de Liège 26",
+        "PostCode": 4841,
+        "City": "HENRI-CHAPELLE",
+        "Bloc1": 22,
+        "Bloc2": 42
+      },
+      {
+        "Id": 3051,
+        "HallName": "LA PREALLE HERSTAL",
+        "Street": "Rue Emile Muraille,158",
+        "PostCode": 4040,
+        "City": "HERSTAL",
+        "Bloc1": 22,
+        "Bloc2": 39
+      },
+      {
+        "Id": 3057,
+        "HallName": "OREYE",
+        "Street": "Rue de la Cité 18",
+        "PostCode": 4360,
+        "City": "OREYE",
+        "Bloc1": 22,
+        "Bloc2": 36
+      },
+      {
+        "Id": 3058,
+        "HallName": "OUGREE (Centenaire)",
+        "Street": "Avenue du Centenaire 39",
+        "PostCode": 4102,
+        "City": "OUGREE",
+        "Bloc1": 23,
+        "Bloc2": 38
+      },
+      {
+        "Id": 3069,
+        "HallName": "STAVELOT",
+        "Street": "Quai des Vieux Moulins 6",
+        "PostCode": 4970,
+        "City": "STAVELOT",
+        "Bloc1": 26,
+        "Bloc2": 42
+      },
+      {
+        "Id": 3079,
+        "HallName": "VERVIERS – GERARDCHAMPS",
+        "Street": "Quai de la Vesdre",
+        "PostCode": 4800,
+        "City": "VERVIERS",
+        "Bloc1": 24,
+        "Bloc2": 41
+      },
+      {
+        "Id": 3080,
+        "HallName": "VISE",
+        "Street": "Rue de Berneau 30",
+        "PostCode": 4600,
+        "City": "VISE",
+        "Bloc1": 21,
+        "Bloc2": 40
+      },
+      {
+        "Id": 3081,
+        "HallName": "Hall Omnisport de Wanze",
+        "Street": "Rue Geo Warzée 19",
+        "PostCode": 4520,
+        "City": "WANZE",
+        "Bloc1": 24,
+        "Bloc2": 35
+      },
+      {
+        "Id": 3082,
+        "HallName": "Centre Sportif Edmond Leburton",
+        "Street": "Rue des Pres 43",
+        "PostCode": 4300,
+        "City": "WAREMME",
+        "Bloc1": 22,
+        "Bloc2": 35
+      },
+      {
+        "Id": 3084,
+        "HallName": "WEGNEZ (LE PAIRE)",
+        "Street": "Rue du Paire",
+        "PostCode": 4860,
+        "City": "WEGNEZ",
+        "Bloc1": 24,
+        "Bloc2": 41
+      },
+      {
+        "Id": 3086,
+        "HallName": "HERMALLE SOUS ARGENTEAU",
+        "Street": "Rue Vallée 15 ",
+        "PostCode": 4681,
+        "City": "HERMALLE/S/ARGENTEAU",
+        "Bloc1": 22,
+        "Bloc2": 40
+      },
+      {
+        "Id": 4001,
+        "HallName": "COMPLEXE SPORTIF DE LA SPETZ",
+        "Street": "Carrefour de la Spetz 2",
+        "PostCode": 6700,
+        "City": "ARLON",
+        "Bloc1": 37,
+        "Bloc2": 41
+      },
+      {
+        "Id": 4011,
+        "HallName": "Complexe Sportif et Culturel Etalle",
+        "Street": "Rue des Ecoles 2A",
+        "PostCode": 6740,
+        "City": "ETALLE",
+        "Bloc1": 37,
+        "Bloc2": 39
+      },
+      {
+        "Id": 4023,
+        "HallName": "HALL DES SPORTS LIBRAMONT",
+        "Street": "Place Communale 3",
+        "PostCode": 6800,
+        "City": "LIBRAMONT",
+        "Bloc1": 33,
+        "Bloc2": 37
+      },
+      {
+        "Id": 4026,
+        "HallName": "Hall Omnisports Nassogne",
+        "Street": "Rue du Vivier 8 ",
+        "PostCode": 6950,
+        "City": "NASSOGNE",
+        "Bloc1": 30,
+        "Bloc2": 36
+      },
+      {
+        "Id": 4028,
+        "HallName": "CS DES TREVES",
+        "Street": "Rue Gustave Delperdange",
+        "PostCode": 6600,
+        "City": "BASTOGNE",
+        "Bloc1": 32,
+        "Bloc2": 40
+      },
+      {
+        "Id": 4033,
+        "HallName": "Salle des Sports de Fratin",
+        "Street": "Rue de Magenot 38",
+        "PostCode": 6740,
+        "City": "FRATIN",
+        "Bloc1": 37,
+        "Bloc2": 39
+      },
+      {
+        "Id": 4044,
+        "HallName": "Centre Sportif Erezée",
+        "Street": "Avenue des Nations Unies 10A",
+        "PostCode": 6997,
+        "City": "EREZEE",
+        "Bloc1": 28,
+        "Bloc2": 38
+      },
+      {
+        "Id": 4050,
+        "HallName": "Centre Sportif Pluri Communal Tenneville",
+        "Street": "Rue Saint-Quoilin 13",
+        "PostCode": 6971,
+        "City": "TENNEVILLE",
+        "Bloc1": 31,
+        "Bloc2": 38
+      },
+      {
+        "Id": 5107,
+        "HallName": "DE KOEKOEK",
+        "Street": "sportlaan 4",
+        "PostCode": 3545,
+        "City": "HALEN",
+        "Bloc1": 18,
+        "Bloc2": 34
+      },
+      {
+        "Id": 5130,
+        "HallName": "SPORTHAL DE WARANDE",
+        "Street": "KETELSTRAAT 54",
+        "PostCode": 3450,
+        "City": "RUMMEN-GEETBETS",
+        "Bloc1": 19,
+        "Bloc2": 34
+      },
+      {
+        "Id": 6430,
+        "HallName": "SPORTHAL HOF TER STRAETEN",
+        "Street": "Hof Van Straeten 2/1",
+        "PostCode": 8490,
+        "City": "VARSENARE",
+        "Bloc1": 15,
+        "Bloc2": 15
+      },
+      {
+        "Id": 6442,
+        "HallName": "SPORTHAL KONINKLIJK ATHENEUM",
+        "Street": "DAVERLOSTRAAT 132",
+        "PostCode": 8310,
+        "City": "ASSEBROEK/BRUGGE",
+        "Bloc1": 14,
+        "Bloc2": 16
+      },
+      {
+        "Id": 7606,
+        "HallName": "SPORTHAL APPELS",
+        "Street": "Steenweg op Aalst 41",
+        "PostCode": 9200,
+        "City": "DENDERMONDE",
+        "Bloc1": 17,
+        "Bloc2": 25
+      },
+      {
+        "Id": 7610,
+        "HallName": "SPORTCENTRUM",
+        "Street": "Koning Albert-I straat 124",
+        "PostCode": 9280,
+        "City": "LEBBEKE",
+        "Bloc1": 18,
+        "Bloc2": 24
+      },
+      {
+        "Id": 7616,
+        "HallName": "MEULENBROEK",
+        "Street": "Kaaiplein 32",
+        "PostCode": 9220,
+        "City": "HAMME",
+        "Bloc1": 17,
+        "Bloc2": 25
+      },
+      {
+        "Id": 7621,
+        "HallName": "HOOGENDONCK",
+        "Street": "Nijverheidslaan 48",
+        "PostCode": 9250,
+        "City": "WAASMUNSTER",
+        "Bloc1": 16,
+        "Bloc2": 24
+      },
+      {
+        "Id": 8222,
+        "HallName": "SPORTCOMPLEX SORGHVLIEDT",
+        "Street": "Krijgsbaan 20",
+        "PostCode": 2660,
+        "City": "HOBOKEN",
+        "Bloc1": 15,
+        "Bloc2": 27
+      },
+      {
+        "Id": 8223,
+        "HallName": "SPORTHAL WEYNINCKHOVEN",
+        "Street": "P. V. Ostaeyenlaan 2",
+        "PostCode": 2540,
+        "City": "HOVE",
+        "Bloc1": 15,
+        "Bloc2": 28
+      },
+      {
+        "Id": 8232,
+        "HallName": "BLAUWE REGEN",
+        "Street": "Koeisteerthofstraat",
+        "PostCode": 2640,
+        "City": "MORTSEL",
+        "Bloc1": 15,
+        "Bloc2": 28
+      },
+      {
+        "Id": 8238,
+        "HallName": "SPORTHAL DEN DRAP",
+        "Street": "DRABSTRAAT 47",
+        "PostCode": 2640,
+        "City": "MORTSEL",
+        "Bloc1": 15,
+        "Bloc2": 28
+      },
+      {
+        "Id": 8250,
+        "HallName": "UITGEDEKT SCHOOR",
+        "Street": "Europalaan 3",
+        "PostCode": 2840,
+        "City": "TERHAGEN",
+        "Bloc1": 16,
+        "Bloc2": 28
+      },
+      {
+        "Id": 8266,
+        "HallName": "SPORTHAL VRIJHALS",
+        "Street": "Cyriel Verschaevestraat",
+        "PostCode": 2870,
+        "City": "BREENDONK",
+        "Bloc1": 17,
+        "Bloc2": 27
+      },
+      {
+        "Id": 8308,
+        "HallName": "ANTWERPEN KIEL",
+        "Street": "Emiel Vloorstraat",
+        "PostCode": 2020,
+        "City": "ANTWERPEN",
+        "Bloc1": 14,
+        "Bloc2": 27
+      },
+      {
+        "Id": 8309,
+        "HallName": "DE SCHALK",
+        "Street": "Stationlaan 2",
+        "PostCode": 2830,
+        "City": "WILLEBROEK",
+        "Bloc1": 17,
+        "Bloc2": 27
+      },
+      {
+        "Id": 8310,
+        "HallName": "SPORTHAL 'T STAPVELD",
+        "Street": "PASTORIJSTRAAT 62",
+        "PostCode": 2590,
+        "City": "BERLAAR",
+        "Bloc1": 16,
+        "Bloc2": 30
+      },
+      {
+        "Id": 8313,
+        "HallName": "SPORTZAAL DE NEKKER",
+        "Street": "Nekkerspoel-Borcht 19",
+        "PostCode": 2800,
+        "City": "MECHELEN",
+        "Bloc1": 17,
+        "Bloc2": 28
+      },
+      {
+        "Id": 8314,
+        "HallName": "GEMEENTELIJKE SPORTHAL BRUULTJESHOUK",
+        "Street": "WAVERVENDEN 14",
+        "PostCode": 2861,
+        "City": "OLV WAVER",
+        "Bloc1": 17,
+        "Bloc2": 29
+      },
+      {
+        "Id": 8370,
+        "HallName": "DE KOLLEBLOEM",
+        "Street": "Kloosterhof 1",
+        "PostCode": 2870,
+        "City": "PUURS",
+        "Bloc1": 17,
+        "Bloc2": 27
+      },
+      {
+        "Id": 8380,
+        "HallName": "SPORTZAAL DE PLAON",
+        "Street": "Eksterstraat 100",
+        "PostCode": 2800,
+        "City": "MECHELEN",
+        "Bloc1": 17,
+        "Bloc2": 28
+      },
+      {
+        "Id": 9004,
+        "HallName": "SPORTZAAL VUB ZAAL 1",
+        "Street": "Pleinlaan 2 (officieel) Triomflaan 8 (GPS / ingang sportzaal)",
+        "PostCode": 1050,
+        "City": "BRUSSEL",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 9012,
+        "HallName": "ZAAL SIPPELBERG",
+        "Street": "Mahatma Gandhilaan 3",
+        "PostCode": 1080,
+        "City": "BRUSSEL",
+        "Bloc1": 20,
+        "Bloc2": 27
+      },
+      {
+        "Id": 9017,
+        "HallName": "ZAAL JEAN MONETPARK",
+        "Street": "Lusthuizenstraat",
+        "PostCode": 1080,
+        "City": "SINT-AGATHA-BERCHEM",
+        "Bloc1": 20,
+        "Bloc2": 26
+      },
+      {
+        "Id": 9048,
+        "HallName": "ZAAL BELLEHEIDE ROOSDAAL",
+        "Street": "Omer de Vidtslaan 52",
+        "PostCode": 1760,
+        "City": "ROOSDAAL",
+        "Bloc1": 20,
+        "Bloc2": 24
+      },
+      {
+        "Id": 9050,
+        "HallName": "SPORTCENTRUM CAERENBERGVELD",
+        "Street": "Kerkhofstraat",
+        "PostCode": 1730,
+        "City": "SCHEPDAAL",
+        "Bloc1": 19,
+        "Bloc2": 26
+      },
+      {
+        "Id": 9063,
+        "HallName": "SPORTHAL WAARBORRE",
+        "Street": "Potaarde 14",
+        "PostCode": 1730,
+        "City": "ASSE",
+        "Bloc1": 19,
+        "Bloc2": 26
+      },
+      {
+        "Id": 9069,
+        "HallName": "GEMEENTELIJKE SPORHAL OPWIJK",
+        "Street": "Heiveld 23",
+        "PostCode": 1745,
+        "City": "OPWIJK",
+        "Bloc1": 18,
+        "Bloc2": 25
+      },
+      {
+        "Id": 9070,
+        "HallName": "GEMEENTELIJKE SPORTZAAL",
+        "Street": "Dijck 34",
+        "PostCode": 1780,
+        "City": "WEMMEL",
+        "Bloc1": 19,
+        "Bloc2": 26
+      },
+      {
+        "Id": 9085,
+        "HallName": "ZAAL EUROVOLLEYCENTRUM",
+        "Street": "Beneluxlaan 22",
+        "PostCode": 1800,
+        "City": "VILVOORDE",
+        "Bloc1": 19,
+        "Bloc2": 28
+      },
+      {
+        "Id": 9119,
+        "HallName": "GEMEENTELIJKE SPORTHAL KAPENHOUT",
+        "Street": "Zeypestraat 26",
+        "PostCode": 1910,
+        "City": "KAMPENHOUT",
+        "Bloc1": 18,
+        "Bloc2": 29
+      },
+      {
+        "Id": 9124,
+        "HallName": "SPORTZAAL HERTBLOCK",
+        "Street": "Orchideeënlaan 18",
+        "PostCode": 1820,
+        "City": "STEENOKKERZEEL",
+        "Bloc1": 19,
+        "Bloc2": 28
+      },
+      {
+        "Id": 9125,
+        "HallName": "SPORTHAL IVO VAN DAMME",
+        "Street": "Overstraat",
+        "PostCode": 3020,
+        "City": "VELTEM",
+        "Bloc1": 19,
+        "Bloc2": 30
+      },
+      {
+        "Id": 9142,
+        "HallName": "SPORTHAL TER LINDE",
+        "Street": "Tiensesteenweg 169 A",
+        "PostCode": 3380,
+        "City": "GLABBEEK",
+        "Bloc1": 20,
+        "Bloc2": 32
+      },
+      {
+        "Id": 9154,
+        "HallName": "SPORTCOMPLEKS",
+        "Street": "Stadionlaan 4",
+        "PostCode": 3010,
+        "City": "KESSEL-LO",
+        "Bloc1": 19,
+        "Bloc2": 31
+      },
+      {
+        "Id": 9157,
+        "HallName": "ZAAL RIJSCHOOL",
+        "Street": "Rijschoolstraat",
+        "PostCode": 3000,
+        "City": "LEUVEN",
+        "Bloc1": 19,
+        "Bloc2": 30
+      },
+      {
+        "Id": 9174,
+        "HallName": "SPORTZAAL DE KRONKEL",
+        "Street": "Gemeenteplein ",
+        "PostCode": 3040,
+        "City": "HULDENBERG",
+        "Bloc1": 21,
+        "Bloc2": 29
+      },
+      {
+        "Id": 9177,
+        "HallName": "SPORTHAL DIEPENDAL",
+        "Street": "Lindeboomstraat 30",
+        "PostCode": 3080,
+        "City": "TERVUREN",
+        "Bloc1": 20,
+        "Bloc2": 29
+      },
+      {
+        "Id": 9178,
+        "HallName": "SPORTCENTRUM RENE CUMPS",
+        "Street": "Astridlaan 85",
+        "PostCode": 1970,
+        "City": "WEZEMBEEK-OPPEM",
+        "Bloc1": 20,
+        "Bloc2": 28
+      }
+    ]
+  ]
+}

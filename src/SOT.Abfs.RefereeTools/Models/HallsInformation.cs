@@ -2,10 +2,9 @@
 
 namespace SOT.Abfs.RefereeTools.Models
 {
-
-    public class TeamsInformation
+    public class HallsInformation
     {
         public DateTime LastUpdate { get; set; }
-        public Team[] Teams { get; set; }
+        public HallModel[] Halls { get; set; }
     }
 }

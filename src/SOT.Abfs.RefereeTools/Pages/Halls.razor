@@ -1,16 +1,16 @@
-@page "/teams"
+﻿@page "/halls"
 @inject HttpClient Http
 @using System.Linq;
 @using SOT.Abfs.RefereeTools.Models;
-<h1>@localizer["Teams"]</h1>
+<h1>@localizer["Halls"]</h1>
 
-@if (displayTeams == null)
+@if (displayHalls == null)
 {
     <p><em>@localizer["Loading"]</em></p>
 }
 else
 {
-    <p>@localizer["TeamsIntroText"]. @localizer["LastUpdateText"] @teamsInformation.LastUpdate.ToShortDateString()</p>
+    <p>@localizer["HallsIntroText"]. @localizer["LastUpdateText"] @hallsInformation.LastUpdate.ToShortDateString()</p>
     <div class="row">
         <div class="col-sm-6">
             <EditForm Model="@teamModelContext">
@@ -58,38 +58,34 @@ else
     <table class="table table-striped table-hover table-responsive-sm table-sm">
         <thead>
             <tr>
-                <th>@localizer["Div"]</th>
-                <th>@localizer["TeamId"]</th>
-                <th>@localizer["Team"]</th>
+                <th>@localizer["Id"]</th>
                 <th>@localizer["Hall"]</th>
-                <th>@localizer["Hour"]</th>
+                <th>@localizer["City"]</th>
                 <th>@localizer["Bloc"]</th>
-                @if (displayTeams.FirstOrDefault()?.Difference != null)
+                @if (displayHalls.FirstOrDefault()?.Difference != null)
                 {
                     <th>@localizer["Diff"]</th>
                     <th>@localizer["Amount"]</th>
                 }
+                <th></th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var team in displayTeams)
+            @foreach (var team in displayHalls)
             {
                 <tr>
-                    <td>@team.Division</td>
-                    <td>@team.Matricule</td>
-                    <td>@team.ClubName</td>
-                    <td>
-                        <a href="halls/@team.HallId">
-                            @team.Hall (@team.HallId.ToString("0000"))
-                        </a>
-                    </td>
-                    <td>@team.Hour</td>
+                    <td>@team.Id.ToString("0000")</td>
+                    <td>@team.HallName</td>
+                    <td>@team.City</td>
                     <td>@team.Bloc1-@team.Bloc2</td>
                     @if (team.Difference != null)
                     {
                         <td>@team.Difference.Value</td>
                         <td>@((team.Difference.Value * blocFee).ToString("0.00")) &euro;</td>
                     }
+                    <td>
+                        <a href="halls/@team.Id"><i class="fas fa-map-marked-alt"></i></a>
+                    </td>
                 </tr>
             }
         </tbody>
@@ -98,23 +94,23 @@ else
 
 @code {
 
-    private TeamsInformation teamsInformation;
+    private HallsInformation hallsInformation;
     private FeeModelContext feeModelContext = new FeeModelContext { Bloc1 = 26, Bloc2 = 26 };
     private const double blocFee = 3.5;
 
-    private Team[] displayTeams;
+    private HallModel[] displayHalls;
     private TeamModelContext teamModelContext = new TeamModelContext();
 
 
     private void CalculateFee()
     {
-        foreach (var team in teamsInformation.Teams)
+        foreach (var hall in hallsInformation.Halls)
         {
-            team.Difference = DifferenceBloc(team, feeModelContext);
+            hall.Difference = DifferenceBloc(hall, feeModelContext);
         }
         OnFilter();
     }
-    private int DifferenceBloc(Team team, FeeModelContext feeModel)
+    private int DifferenceBloc(HallModel team, FeeModelContext feeModel)
     {
         return DifferenceBloc(team.Bloc1, team.Bloc2, feeModel.Bloc1, feeModel.Bloc2);
     }
@@ -133,11 +129,11 @@ else
     {
         if (string.IsNullOrEmpty(searchValue))
         {
-            displayTeams = teamsInformation.Teams;
+            displayHalls = hallsInformation.Halls;
         }
         else
         {
-            displayTeams = teamsInformation.Teams
+            displayHalls = hallsInformation.Halls
                 .Where(c => c.SearchString.Contains(searchValue, StringComparison.InvariantCultureIgnoreCase))
                 .ToArray();
         }
@@ -145,8 +141,8 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        teamsInformation = await Http.GetFromJsonAsync<SOT.Abfs.RefereeTools.Models.TeamsInformation>("data/teams.json");
-        teamsInformation.Teams = teamsInformation.Teams.OrderBy(c => c.Division).ThenBy(c => c.ClubName).ToArray();
+        hallsInformation = await Http.GetFromJsonAsync<SOT.Abfs.RefereeTools.Models.HallsInformation>("data/halls.json");
+        hallsInformation.Halls = hallsInformation.Halls.OrderBy(c => c.Id).ToArray();
         Filter(teamModelContext.FilterText);
     }
 
