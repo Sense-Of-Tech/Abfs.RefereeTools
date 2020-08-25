@@ -36,14 +36,14 @@ else
                     <div class="form-inline">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                                <div class="input-group-text">@localizer["Bloc"] 1</div>
+                                <div class="input-group-text">@localizer["Referee"]</div>
                             </div>
-                            <InputNumber @bind-Value="feeModelContext.Bloc1" class="form-control" />
-
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">@localizer["Bloc"] 2</div>
-                            </div>
-                            <InputNumber @bind-Value="feeModelContext.Bloc2" class="form-control" />
+                            <InputSelect @bind-Value="feeModelContext.RefereeSelected" class="form-control">
+                                @foreach (var item in refereesInformation.Referees.OrderBy(c => c.Firstname).ThenBy(c => c.Lastname))
+                                    {
+                                    <option value="@item.Id">@item.ToString()</option>
+                                    }
+                            </InputSelect>
                             <button @onclick="CalculateFee" class="btn btn-outline-primary">
                                 <i class="fas fa-calculator"></i>
                             </button>
@@ -99,7 +99,8 @@ else
 @code {
 
     private TeamsInformation teamsInformation;
-    private FeeModelContext feeModelContext = new FeeModelContext { Bloc1 = 26, Bloc2 = 26 };
+    private RefereesInformation refereesInformation;
+    private FeeModelContext feeModelContext;
     private const double blocFee = 3.5;
 
     private Team[] displayTeams;
@@ -146,7 +147,12 @@ else
     protected override async Task OnInitializedAsync()
     {
         teamsInformation = await Http.GetFromJsonAsync<SOT.Abfs.RefereeTools.Models.TeamsInformation>("data/teams.json");
+        refereesInformation = await Http.GetFromJsonAsync<SOT.Abfs.RefereeTools.Models.RefereesInformation>("data/referees.json");
         teamsInformation.Teams = teamsInformation.Teams.OrderBy(c => c.Division).ThenBy(c => c.ClubName).ToArray();
+        feeModelContext = new FeeModelContext
+        {
+            refereesInformation = refereesInformation
+        };
         Filter(teamModelContext.FilterText);
     }
 
@@ -157,8 +163,26 @@ else
 
     public class FeeModelContext
     {
+        public RefereesInformation refereesInformation;
+
+
+        private int refereeSelected;
         public int Bloc1 { get; set; }
         public int Bloc2 { get; set; }
+        public string RefereeSelected
+        {
+            get => refereeSelected.ToString();
+            set
+            {
+                refereeSelected = int.Parse(value);
+                var referee = refereesInformation.Referees.FirstOrDefault(c => c.Id == refereeSelected);
+                if (referee != null)
+                {
+                    Bloc1 = referee.Bloc1;
+                    Bloc2 = referee.Bloc2;
+                }
+            }
+        }
     }
 
 }

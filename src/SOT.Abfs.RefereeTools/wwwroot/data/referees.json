@@ -1,0 +1,369 @@
+﻿{
+  "lastUpdate": "2020-08-22T10:00:00.000Z",
+  "referees": [
+    {
+      "Id": 1,
+      "Lastname": "Audoor",
+      "Firstname": "Daniel",
+      "Bloc1": 22,
+      "Bloc2": 38
+    },
+    {
+      "Id": 2,
+      "Lastname": "Bajraktari",
+      "Firstname": "Arian",
+      "Bloc1": 25,
+      "Bloc2": 34
+    },
+    {
+      "Id": 3,
+      "Lastname": "Bawin",
+      "Firstname": "Eric",
+      "Bloc1": 28,
+      "Bloc2": 30
+    },
+    {
+      "Id": 4,
+      "Lastname": "Bawin",
+      "Firstname": "Régis",
+      "Bloc1": 23,
+      "Bloc2": 37
+    },
+    {
+      "Id": 5,
+      "Lastname": "Blairon",
+      "Firstname": "Christophe",
+      "Bloc1": 26,
+      "Bloc2": 26
+    },
+    {
+      "Id": 6,
+      "Lastname": "Boogers",
+      "Firstname": "Steven",
+      "Bloc1": 19,
+      "Bloc2": 30
+    },
+    {
+      "Id": 7,
+      "Lastname": "Cstillo",
+      "Firstname": "Gabriel",
+      "Bloc1": 23,
+      "Bloc2": 38
+    },
+    {
+      "Id": 8,
+      "Lastname": "Cave",
+      "Firstname": "Christophe",
+      "Bloc1": 24,
+      "Bloc2": 36
+    },
+    {
+      "Id": 9,
+      "Lastname": "Clerbois",
+      "Firstname": "Adrien",
+      "Bloc1": 26,
+      "Bloc2": 26
+    },
+    {
+      "Id": 10,
+      "Lastname": "Collin",
+      "Firstname": "Michael",
+      "Bloc1": 28,
+      "Bloc2": 37
+    },
+    {
+      "Id": 11,
+      "Lastname": "Coudeville",
+      "Firstname": "Nick",
+      "Bloc1": 15,
+      "Bloc2": 16
+    },
+    {
+      "Id": 12,
+      "Lastname": "Deckers",
+      "Firstname": "Fabian",
+      "Bloc1": 22,
+      "Bloc2": 38
+    },
+    {
+      "Id": 13,
+      "Lastname": "Desmit",
+      "Firstname": "Danny",
+      "Bloc1": 21,
+      "Bloc2": 40
+    },
+    {
+      "Id": 14,
+      "Lastname": "Douay",
+      "Firstname": "Monir",
+      "Bloc1": 22,
+      "Bloc2": 25
+    },
+    {
+      "Id": 15,
+      "Lastname": "Dubois",
+      "Firstname": "Claude",
+      "Bloc1": 26,
+      "Bloc2": 32
+    },
+    {
+      "Id": 16,
+      "Lastname": "Duret",
+      "Firstname": "Luc",
+      "Bloc1": 25,
+      "Bloc2": 29
+    },
+    {
+      "Id": 17,
+      "Lastname": "Duret",
+      "Firstname": "Maxime",
+      "Bloc1": 26,
+      "Bloc2": 22
+    },
+    {
+      "Id": 18,
+      "Lastname": "Duvivier",
+      "Firstname": "Jacky",
+      "Bloc1": 26,
+      "Bloc2": 27
+    },
+    {
+      "Id": 19,
+      "Lastname": "El Abbouti",
+      "Firstname": "Youssef",
+      "Bloc1": 19,
+      "Bloc2": 27
+    },
+    {
+      "Id": 20,
+      "Lastname": "El Hatib",
+      "Firstname": "Abdelghaf",
+      "Bloc1": 20,
+      "Bloc2": 27
+    },
+    {
+      "Id": 21,
+      "Lastname": "emmery",
+      "Firstname": "Paul",
+      "Bloc1": 19,
+      "Bloc2": 29
+    },
+    {
+      "Id": 22,
+      "Lastname": "Ferrante",
+      "Firstname": "Nunzio",
+      "Bloc1": 22,
+      "Bloc2": 38
+    },
+    {
+      "Id": 23,
+      "Lastname": "Fumal",
+      "Firstname": "Pascal",
+      "Bloc1": 30,
+      "Bloc2": 41
+    },
+    {
+      "Id": 24,
+      "Lastname": "Heylen",
+      "Firstname": "Eddy",
+      "Bloc1": 24,
+      "Bloc2": 29
+    },
+    {
+      "Id": 25,
+      "Lastname": "Huygens",
+      "Firstname": "Louis",
+      "Bloc1": 25,
+      "Bloc2": 32
+    },
+    {
+      "Id": 26,
+      "Lastname": "Jehin",
+      "Firstname": "Kris",
+      "Bloc1": 16,
+      "Bloc2": 28
+    },
+    {
+      "Id": 27,
+      "Lastname": "Lacanne",
+      "Firstname": "Vincent",
+      "Bloc1": 23,
+      "Bloc2": 40
+    },
+    {
+      "Id": 28,
+      "Lastname": "Laviolette",
+      "Firstname": "Stephan",
+      "Bloc1": 28,
+      "Bloc2": 30
+    },
+    {
+      "Id": 29,
+      "Lastname": "Lebeau",
+      "Firstname": "Christian",
+      "Bloc1": 25,
+      "Bloc2": 26
+    },
+    {
+      "Id": 30,
+      "Lastname": "Leonard",
+      "Firstname": "Christina",
+      "Bloc1": 39,
+      "Bloc2": 40
+    },
+    {
+      "Id": 31,
+      "Lastname": "Leys",
+      "Firstname": "Peter",
+      "Bloc1": 15,
+      "Bloc2": 28
+    },
+    {
+      "Id": 32,
+      "Lastname": "Liefferinckx",
+      "Firstname": "Stéphan",
+      "Bloc1": 22,
+      "Bloc2": 26
+    },
+    {
+      "Id": 33,
+      "Lastname": "Lorand",
+      "Firstname": "Guy",
+      "Bloc1": 26,
+      "Bloc2": 31
+    },
+    {
+      "Id": 34,
+      "Lastname": "Mager",
+      "Firstname": "Grégory",
+      "Bloc1": 22,
+      "Bloc2": 42
+    },
+    {
+      "Id": 35,
+      "Lastname": "Minhal",
+      "Firstname": "Abdelghaf",
+      "Bloc1": 20,
+      "Bloc2": 26
+    },
+    {
+      "Id": 36,
+      "Lastname": "Muratore",
+      "Firstname": "Francesco",
+      "Bloc1": 26,
+      "Bloc2": 22
+    },
+    {
+      "Id": 37,
+      "Lastname": "Nihoul",
+      "Firstname": "Eric",
+      "Bloc1": 22,
+      "Bloc2": 39
+    },
+    {
+      "Id": 38,
+      "Lastname": "Nihoul",
+      "Firstname": "Marc",
+      "Bloc1": 23,
+      "Bloc2": 37
+    },
+    {
+      "Id": 39,
+      "Lastname": "Ortega",
+      "Firstname": "Juan",
+      "Bloc1": 22,
+      "Bloc2": 40
+    },
+    {
+      "Id": 40,
+      "Lastname": "Peeters",
+      "Firstname": "Pascal",
+      "Bloc1": 26,
+      "Bloc2": 26
+    },
+    {
+      "Id": 41,
+      "Lastname": "Rassart",
+      "Firstname": "Guy",
+      "Bloc1": 22,
+      "Bloc2": 34
+    },
+    {
+      "Id": 42,
+      "Lastname": "Remy",
+      "Firstname": "Joel",
+      "Bloc1": 28,
+      "Bloc2": 25
+    },
+    {
+      "Id": 43,
+      "Lastname": "Renard",
+      "Firstname": "Jeremy",
+      "Bloc1": 24,
+      "Bloc2": 24
+    },
+    {
+      "Id": 44,
+      "Lastname": "Rooms",
+      "Firstname": "Jonathan",
+      "Bloc1": 23,
+      "Bloc2": 27
+    },
+    {
+      "Id": 45,
+      "Lastname": "Senal",
+      "Firstname": "Adem",
+      "Bloc1": 26,
+      "Bloc2": 27
+    },
+    {
+      "Id": 46,
+      "Lastname": "Sente",
+      "Firstname": "Robert",
+      "Bloc1": 18,
+      "Bloc2": 31
+    },
+    {
+      "Id": 47,
+      "Lastname": "Sprio",
+      "Firstname": "Vincenzo",
+      "Bloc1": 25,
+      "Bloc2": 25
+    },
+    {
+      "Id": 48,
+      "Lastname": "Van Laeken",
+      "Firstname": "Denis",
+      "Bloc1": 20,
+      "Bloc2": 28
+    },
+    {
+      "Id": 49,
+      "Lastname": "Vanderlinden",
+      "Firstname": "Johan",
+      "Bloc1": 16,
+      "Bloc2": 28
+    },
+    {
+      "Id": 50,
+      "Lastname": "Vranchen",
+      "Firstname": "Lucien",
+      "Bloc1": 14,
+      "Bloc2": 30
+    },
+    {
+      "Id": 51,
+      "Lastname": "Yaman",
+      "Firstname": "Haluk",
+      "Bloc1": 15,
+      "Bloc2": 27
+    },
+    {
+      "Id": 52,
+      "Lastname": "Yildiz",
+      "Firstname": "Aho",
+      "Bloc1": 22,
+      "Bloc2": 39
+    }
+  ]
+}

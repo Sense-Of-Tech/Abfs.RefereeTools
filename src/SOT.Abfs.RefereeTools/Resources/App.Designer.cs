@@ -241,6 +241,15 @@ namespace SOT.Abfs.RefereeTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Referee.
+        /// </summary>
+        public static string Referee {
+            get {
+                return ResourceManager.GetString("Referee", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search.
         /// </summary>
         public static string Search {

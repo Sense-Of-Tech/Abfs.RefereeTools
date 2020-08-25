@@ -190,4 +190,7 @@
     <value>Ressource not trouvée
 </value>
   </data>
+  <data name="Referee" xml:space="preserve">
+    <value>Arbitre</value>
+  </data>
 </root>

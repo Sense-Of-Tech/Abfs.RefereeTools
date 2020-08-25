@@ -36,14 +36,14 @@ else
                     <div class="form-inline">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                                <div class="input-group-text">@localizer["Bloc"] 1</div>
+                                <div class="input-group-text">@localizer["Referee"]</div>
                             </div>
-                            <InputNumber @bind-Value="feeModelContext.Bloc1" class="form-control" />
-
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">@localizer["Bloc"] 2</div>
-                            </div>
-                            <InputNumber @bind-Value="feeModelContext.Bloc2" class="form-control" />
+                            <InputSelect @bind-Value="feeModelContext.RefereeSelected" class="form-control">
+                                @foreach (var item in refereesInformation.Referees.OrderBy(c => c.Firstname).ThenBy(c => c.Lastname))
+                                    {
+                                    <option value="@item.Id">@item.ToString()</option>
+                                    }
+                            </InputSelect>
                             <button @onclick="CalculateFee" class="btn btn-outline-primary">
                                 <i class="fas fa-calculator"></i>
                             </button>
@@ -54,47 +54,49 @@ else
                 </div>
             </EditForm>
         </div>
-    </div>
-    <table class="table table-striped table-hover table-responsive-sm table-sm">
-        <thead>
-            <tr>
-                <th>@localizer["Id"]</th>
-                <th>@localizer["Hall"]</th>
-                <th>@localizer["City"]</th>
-                <th>@localizer["Bloc"]</th>
-                @if (displayHalls.FirstOrDefault()?.Difference != null)
-                {
-                    <th>@localizer["Diff"]</th>
-                    <th>@localizer["Amount"]</th>
-                }
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var team in displayHalls)
-            {
+
+        <table class="table table-striped table-hover table-responsive-sm table-sm">
+            <thead>
                 <tr>
-                    <td>@team.Id.ToString("0000")</td>
-                    <td>@team.HallName</td>
-                    <td>@team.City</td>
-                    <td>@team.Bloc1-@team.Bloc2</td>
-                    @if (team.Difference != null)
+                    <th>@localizer["Id"]</th>
+                    <th>@localizer["Hall"]</th>
+                    <th>@localizer["City"]</th>
+                    <th>@localizer["Bloc"]</th>
+                    @if (displayHalls.FirstOrDefault()?.Difference != null)
                     {
-                        <td>@team.Difference.Value</td>
-                        <td>@((team.Difference.Value * blocFee).ToString("0.00")) &euro;</td>
+                        <th>@localizer["Diff"]</th>
+                        <th>@localizer["Amount"]</th>
                     }
-                    <td>
-                        <a href="halls/@team.Id"><i class="fas fa-map-marked-alt"></i></a>
-                    </td>
+                    <th></th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var team in displayHalls)
+                {
+                    <tr>
+                        <td>@team.Id.ToString("0000")</td>
+                        <td>@team.HallName</td>
+                        <td>@team.City</td>
+                        <td>@team.Bloc1-@team.Bloc2</td>
+                        @if (team.Difference != null)
+                        {
+                            <td>@team.Difference.Value</td>
+                            <td>@((team.Difference.Value * blocFee).ToString("0.00")) &euro;</td>
+                        }
+                        <td>
+                            <a href="halls/@team.Id"><i class="fas fa-map-marked-alt"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 }
 
 @code {
 
     private HallsInformation hallsInformation;
+    private RefereesInformation refereesInformation;
     private FeeModelContext feeModelContext = new FeeModelContext { Bloc1 = 26, Bloc2 = 26 };
     private const double blocFee = 3.5;
 
@@ -142,7 +144,12 @@ else
     protected override async Task OnInitializedAsync()
     {
         hallsInformation = await Http.GetFromJsonAsync<SOT.Abfs.RefereeTools.Models.HallsInformation>("data/halls.json");
+        refereesInformation = await Http.GetFromJsonAsync<SOT.Abfs.RefereeTools.Models.RefereesInformation>("data/referees.json");
         hallsInformation.Halls = hallsInformation.Halls.OrderBy(c => c.Id).ToArray();
+        feeModelContext = new FeeModelContext
+        {
+            refereesInformation = refereesInformation
+        };
         Filter(teamModelContext.FilterText);
     }
 
@@ -153,8 +160,26 @@ else
 
     public class FeeModelContext
     {
+        public RefereesInformation refereesInformation;
+
+
+        private int refereeSelected;
         public int Bloc1 { get; set; }
         public int Bloc2 { get; set; }
-    }
+        public string RefereeSelected
+        {
+            get => refereeSelected.ToString();
+            set
+            {
+                refereeSelected = int.Parse(value);
+                var referee = refereesInformation.Referees.FirstOrDefault(c => c.Id == refereeSelected);
+                if (referee != null)
+                {
+                    Bloc1 = referee.Bloc1;
+                    Bloc2 = referee.Bloc2;
+                }
+            }
+        }
 
+    }
 }
