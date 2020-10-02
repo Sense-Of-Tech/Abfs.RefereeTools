@@ -1,7 +1,8 @@
 # Abfs.RefereeTools
 
-This is a small project to explore Blazor technology. This projet is a small toolbox for National Referee in Belgium. It's allow users to 
+This is a small project to explore Blazor technology. This projet is a small toolbox for National Referee in Belgium. 
 
+It's allow users to :
 - See all Belgian nation futsal team for the A.B.F.S. federation
 - Calculate movement fees
 - Add multilingual support (FR, NL & EN)
